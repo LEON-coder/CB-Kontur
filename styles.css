@@ -1,0 +1,130 @@
+@font-face {
+	font-family: 'Inter';
+	src        : url(build/fonts/Inter-Regular.woff2);
+}
+
+
+
+* {
+	margin : 0;
+	padding: 0;
+}
+
+body {
+	display       : flex;
+	flex-direction: column;
+	width         : 100%;
+	background    : #F5FAFF;
+	align-items   : center;
+}
+
+content {
+	display       : flex;
+	flex-direction: column;
+	width         : 1290px;
+}
+
+header {
+	display      : flex;
+	width        : 1290px;
+	height       : 61px;
+	flex-shrink  : 0;
+	border-radius: 0px 0px 25px 25px;
+	border       : 1px solid rgba(222, 232, 239, 0.50);
+	background   : #FFF;
+	box-shadow   : 0px 0px 20px 0px rgba(56, 125, 194, 0.04);
+}
+
+.header__wrap {
+	display        : flex;
+	align-items    : center;
+	width          : 100%;
+	justify-content: space-between;
+}
+
+.header__logo-block {
+	display    : flex;
+	align-items: center;
+}
+
+.header__logo {
+	width      : 169.047px;
+	height     : 32.313px;
+	flex-shrink: 0;
+	margin-left: 30px;
+}
+
+.header__constructor {
+	display        : flex;
+	width          : 290px;
+	height         : 25px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #656565;
+	font-family    : Inter;
+	font-size      : 12px;
+	font-style     : normal;
+	font-weight    : 500;
+	line-height    : normal;
+	margin-left    : 30px;
+}
+
+.header__contacts {
+	display: flex;
+}
+
+.header__contacts_block {
+	display     : flex;
+	margin-right: 18px;
+}
+
+.header__contacts_item {
+	position       : relative;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	margin-right   : 15px;
+}
+
+.header__contacts_item-back {
+	position   : absolute;
+	width      : 30px;
+	height     : 30px;
+	flex-shrink: 0;
+}
+
+.header__contacts_name {
+	display        : flex;
+	width          : 22px;
+	height         : 25px;
+	flex-direction : column;
+	flex-shrink    : 0;
+	color          : #313131;
+	font-family    : 'Inter';
+	font-size      : 12px;
+	font-style     : normal;
+	font-weight    : 400;
+	line-height    : normal;
+	z-index        : 5;
+	justify-content: center;
+	align-items    : center;
+}
+
+.header__phone {
+	display        : flex;
+	width          : 145px;
+	height         : 25px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #656565;
+	text-align     : right;
+	font-family    : Inter;
+	font-size      : 16px;
+	font-style     : normal;
+	font-weight    : 500;
+	line-height    : normal;
+	text-decoration: none;
+	margin-left    : 55px;
+}
