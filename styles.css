@@ -95,6 +95,7 @@ header {
 	justify-content: center;
 	align-items    : center;
 	margin-right   : 15px;
+	cursor         : pointer;
 }
 
 .header__contacts_item-back {
@@ -911,7 +912,6 @@ input[type="textarea"] {
 
 .specify-location {
 	display        : flex;
-	height         : 30px;
 	padding        : 5px 20px;
 	justify-content: center;
 	align-items    : center;
@@ -991,12 +991,13 @@ footer {
 }
 
 .footer__wrap {
-	display      : flex;
-	width        : 1290px;
-	align-items  : center;
-	padding-left : 130px;
-	padding-right: 130px;
-	box-sizing   : border-box;
+	display        : flex;
+	width          : 100%;
+	align-items    : center;
+	padding-left   : 130px;
+	padding-right  : 130px;
+	box-sizing     : border-box;
+	justify-content: space-between;
 }
 
 .footer__info-company {
@@ -1031,4 +1032,24 @@ footer {
 
 .firm-location {
 	margin-top: 20px;
+}
+
+.footer-contacts-modify {
+	display        : flex;
+	flex-direction : column;
+	margin-right   : 0;
+	justify-content: center;
+	align-items    : center;
+}
+
+.footer-phone {
+	margin-left: 0;
+	color      : #FFF;
+	text-align : right;
+	font-family: Inter;
+	font-size  : 16px;
+	font-style : normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-top : 8px;
 }
