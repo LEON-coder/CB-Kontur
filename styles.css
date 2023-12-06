@@ -84,6 +84,12 @@ header {
 	display: flex;
 }
 
+.icon-messanger {
+	width      : 30px;
+	height     : 30px;
+	flex-shrink: 0;
+}
+
 .header__contacts_block {
 	display     : flex;
 	margin-right: 18px;
@@ -190,6 +196,108 @@ main {
 	flex-direction : column;
 }
 
+.main__block-calculate {
+	width        : 300px;
+	flex-shrink  : 0;
+	border-radius: 25px;
+	border       : 1px solid rgba(222, 232, 239, 0.50);
+	background   : #FFF;
+	box-shadow   : 0px 0px 20px 0px rgba(56, 125, 194, 0.04);
+}
+
+.main__block-calculate_wrap {
+	display       : flex;
+	flex-direction: column;
+	margin-top    : 15px;
+	padding-left  : 20px;
+	padding-right : 20px;
+	box-sizing    : border-box;
+}
+
+.main__block-calculate-headline {
+	display        : flex;
+	width          : 160px;
+	height         : 30px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #AFAFAF;
+	font-family    : Inter;
+	font-size      : 16px;
+	font-style     : normal;
+	font-weight    : 700;
+	line-height    : normal;
+}
+
+.order-block {
+	display       : flex;
+	flex-direction: column;
+}
+
+.quantity-block {
+	display        : flex;
+	align-items    : center;
+	width          : 100%;
+	justify-content: space-between;
+}
+
+.order-block__item {
+	display        : flex;
+	width          : 122px;
+	height         : 25px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #313131;
+	font-family    : Inter;
+	font-size      : 12px;
+	font-style     : normal;
+	font-weight    : 400;
+	line-height    : normal;
+}
+
+.order-block__area {
+	display        : flex;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #313131;
+	text-align     : center;
+	font-family    : Inter;
+	font-size      : 12px;
+	font-style     : normal;
+	font-weight    : 400;
+	line-height    : normal;
+	align-items    : center;
+}
+
+.order-block-text {
+	display        : flex;
+	width          : 40px;
+	height         : 25px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #313131;
+	text-align     : center;
+	font-family    : Inter;
+	font-size      : 12px;
+	font-style     : normal;
+	font-weight    : 400;
+	line-height    : normal;
+	margin-top     : 0;
+}
+
+.order-block-piece {
+	display        : flex;
+	width          : 40px;
+	height         : 25px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	margin-left    : 10px;
+}
+
+
 .download-block_button {
 	display        : flex;
 	width          : 299px;
@@ -210,6 +318,12 @@ main {
 	cursor         : pointer;
 }
 
+.goods-block {
+	display       : flex;
+	margin-top    : 15px;
+	flex-direction: column;
+}
+
 .download-block-notification {
 	display        : flex;
 	width          : 299px;
@@ -219,6 +333,119 @@ main {
 	flex-shrink    : 0;
 	color          : #313131;
 	text-align     : center;
+	font-family    : Inter;
+	font-size      : 12px;
+	font-style     : normal;
+	font-weight    : 400;
+	line-height    : normal;
+}
+
+.order-block__item-wrap {
+	display       : flex;
+	flex-direction: column;
+}
+
+.preliminary-calculation {
+	display        : flex;
+	width          : 166px;
+	height         : 30px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #313131;
+	font-family    : Inter;
+	font-size      : 12px;
+	font-style     : normal;
+	font-weight    : 400;
+	line-height    : normal;
+}
+
+.goods-block-price {
+	display        : flex;
+	width          : 105px;
+	height         : 30px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #313131;
+	text-align     : right;
+	font-family    : Inter;
+	font-size      : 12px;
+	font-style     : normal;
+	font-weight    : 400;
+	line-height    : normal;
+}
+
+.green-modify {
+	display        : flex;
+	width          : 105px;
+	height         : 30px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #377611;
+	text-align     : right;
+	font-family    : Inter;
+	font-size      : 12px;
+	font-style     : normal;
+	font-weight    : 400;
+	line-height    : normal;
+}
+
+.send-order-block {
+	display        : flex;
+	flex-direction : column;
+	margin-top     : 35px;
+	justify-content: center;
+	align-items    : center;
+}
+
+.send-order-button {
+	color          : #FFF;
+	font-family    : Inter;
+	font-size      : 16px;
+	font-style     : normal;
+	font-weight    : 500;
+	line-height    : normal;
+	display        : flex;
+	width          : 240px;
+	height         : 40px;
+	justify-content: center;
+	align-items    : center;
+	gap            : 10px;
+	flex-shrink    : 0;
+	border-radius  : 30px;
+	border         : none;
+	background     : rgba(43, 140, 237, 0.40);
+}
+
+.new-order {
+	display             : flex;
+	width               : 220px;
+	flex-direction      : column;
+	justify-content     : center;
+	flex-shrink         : 0;
+	color               : #2B8CED;
+	text-align          : center;
+	font-family         : Inter;
+	font-size           : 16px;
+	font-style          : normal;
+	font-weight         : 400;
+	line-height         : normal;
+	text-decoration-line: underline;
+	margin-bottom       : 15px;
+	height              : 30px;
+}
+
+.discount-10-pieces {
+	display        : flex;
+	width          : 105px;
+	height         : 30px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #BE0000;
+	text-align     : right;
 	font-family    : Inter;
 	font-size      : 12px;
 	font-style     : normal;
@@ -332,19 +559,8 @@ main {
 	-o-transition     : 1s;
 }
 
-.main__block-calculate {
-	width        : 300px;
-	height       : 360px;
-	flex-shrink  : 0;
-	border-radius: 25px;
-	border       : 1px solid rgba(222, 232, 239, 0.50);
-	background   : #FFF;
-	box-shadow   : 0px 0px 20px 0px rgba(56, 125, 194, 0.04);
-}
-
 .main__customer-data {
 	width         : 300px;
-	height        : 350px;
 	border-radius : 25px;
 	border        : 1px solid rgba(222, 232, 239, 0.50);
 	background    : #FFF;
@@ -403,9 +619,10 @@ input[type="textarea"] {
 }
 
 .checkbox-block {
-	display    : flex;
-	margin-top : 10px;
-	align-items: center;
+	display      : flex;
+	margin-top   : 10px;
+	align-items  : center;
+	margin-bottom: 20px;
 }
 
 
