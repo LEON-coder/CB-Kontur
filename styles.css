@@ -85,9 +85,59 @@ header {
 }
 
 .icon-messanger {
-	width      : 30px;
-	height     : 30px;
-	flex-shrink: 0;
+	width             : 30px;
+	height            : 30px;
+	flex-shrink       : 0;
+	fill              : white;
+	transition        : 1s;
+	-webkit-transition: 1s;
+	-moz-transition   : 1s;
+	-ms-transition    : 1s;
+	-o-transition     : 1s;
+}
+
+.tg-hover:hover {
+	fill             : blue;
+	transform        : scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform   : scale(1.2);
+	-ms-transform    : scale(1.2);
+	-o-transform     : scale(1.2);
+}
+
+.whatsapp {
+	fill: white;
+}
+
+.whatsapp:hover {
+	fill             : black;
+	background-color : #D9D9D9;
+	transform        : scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform   : scale(1.2);
+	-ms-transform    : scale(1.2);
+	-o-transform     : scale(1.2);
+}
+
+.back-whatsapp {
+	fill: #BFC8D0;
+}
+
+.whatsapp:hover {
+	border: green;
+}
+
+.mail-icon {
+	fill: #000000;
+}
+
+.mail-icon:hover {
+	fill             : gold;
+	transform        : scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform   : scale(1.2);
+	-ms-transform    : scale(1.2);
+	-o-transform     : scale(1.2);
 }
 
 .header__contacts_block {
