@@ -452,7 +452,7 @@ main {
 
 .send-order-button {
 	color          : #FFF;
-	font-family    : Inter;
+	font-family    : 'Inter';
 	font-size      : 16px;
 	font-style     : normal;
 	font-weight    : 500;
@@ -467,11 +467,11 @@ main {
 	border-radius  : 30px;
 	border         : none;
 	background     : rgba(43, 140, 237, 0.40);
+	cursor         : pointer;
 }
 
 .new-order {
 	display             : flex;
-	width               : 220px;
 	flex-direction      : column;
 	justify-content     : center;
 	flex-shrink         : 0;
