@@ -1308,7 +1308,9 @@ input.order-block-text:focus {
 	display: flex;
 }
 
-.PCB-Assembly-icon {}
+.show-assembly {
+	display: none;
+}
 
 .PCB-Assembly-name {
 	display        : flex;
@@ -1344,6 +1346,10 @@ input.order-block-text:focus {
 	position       : relative;
 	align-items    : center;
 	margin-right   : 47px;
+}
+
+.PCB {
+	margin-right: 20px;
 }
 
 .switcher-button {
