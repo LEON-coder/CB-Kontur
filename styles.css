@@ -725,7 +725,14 @@ input:active {
 	background   : #FFF;
 }
 
-input:focus {
+input[checkbox]:active {
+	border-radius: 2px;
+	border       : 1px solid transparent;
+	background   : #FFF;
+}
+
+input.size:focus,
+input.customer-input:focus {
 	border-radius: 2px;
 	border       : 1px solid #2B8CED;
 	background   : #FFF;
