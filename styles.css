@@ -1427,6 +1427,7 @@ footer {
 	flex-shrink    : 0;
 	background     : #5A6266;
 	justify-content: space-between;
+	margin-top     : 50px;
 }
 
 .footer__wrap {
