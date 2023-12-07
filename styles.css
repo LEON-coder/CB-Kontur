@@ -724,7 +724,7 @@ input[type="textarea"] {
 	background   : rgba(245, 250, 255, 0.40);
 }
 
-input:active {
+input:focus {
 	border-radius: 2px;
 	border       : 1px solid #2B8CED;
 	background   : #FFF;
@@ -736,13 +736,14 @@ input[checkbox]:active {
 	background   : #FFF;
 }
 
-input.size:focus,
+/*input.size:focus,
 input.customer-input:focus,
 input.order-block-text:focus {
 	border-radius: 2px;
 	border       : 1px solid #2B8CED;
 	background   : #FFF;
 }
+*/
 
 
 .checkbox-block {
@@ -898,15 +899,33 @@ input.order-block-text:focus {
 }
 
 .specification__label-corner {
-	color      : #AFAFAF;
-	font-family: Inter;
-	font-size  : 12px;
-	font-style : normal;
-	font-weight: 700;
-	line-height: normal;
-	position   : absolute;
-	top        : -8px;
-	left       : 29px;
+	color       : #AFAFAF;
+	font-family : Inter;
+	font-size   : 12px;
+	font-style  : normal;
+	font-weight : 700;
+	line-height : normal;
+	position    : absolute;
+	top         : -8px;
+	left        : 29px;
+	background  : white;
+	width       : 94px;
+	padding-left: 6px;
+}
+
+.add-optional-modify {
+	color       : #AFAFAF;
+	font-family : Inter;
+	font-size   : 12px;
+	font-style  : normal;
+	font-weight : 700;
+	line-height : normal;
+	position    : absolute;
+	top         : -8px;
+	left        : 29px;
+	background  : white;
+	width       : 148px;
+	padding-left: 5px;
 }
 
 .boards-order-block,
@@ -1500,4 +1519,18 @@ footer {
 	font-weight: 500;
 	line-height: normal;
 	margin-top : 8px;
+}
+
+@media screen and (min-width: 2560px) {
+	.footer__wrap {
+		display        : flex;
+		width          : 100%;
+		align-items    : center;
+		padding-left   : 630px;
+		padding-right  : 630px;
+		box-sizing     : border-box;
+		justify-content: space-between;
+		margin-top     : 19px;
+		margin-bottom  : 19px;
+	}
 }
