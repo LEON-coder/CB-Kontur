@@ -28,7 +28,7 @@ body {
 	align-items   : center;
 }
 
-content {
+.content {
 	display       : flex;
 	flex-direction: column;
 	width         : 1290px;
@@ -1451,20 +1451,20 @@ footer {
 	height         : auto;
 	flex-shrink    : 0;
 	background     : #5A6266;
-	justify-content: space-between;
+	justify-content: center;
 	margin-top     : 50px;
 }
 
 .footer__wrap {
 	display        : flex;
-	width          : 100%;
 	align-items    : center;
-	padding-left   : 130px;
-	padding-right  : 130px;
+	padding-left   : 0px;
+	padding-right  : 0;
 	box-sizing     : border-box;
 	justify-content: space-between;
 	margin-top     : 19px;
 	margin-bottom  : 19px;
+	width          : 1290px;
 }
 
 .footer__info-company {
