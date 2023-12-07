@@ -34,9 +34,6 @@ content {
 	width         : 1290px;
 }
 
-input:active {
-	border: 1px solid #2B8CED;
-}
 
 header {
 	display      : flex;
@@ -150,8 +147,8 @@ header {
 	display: flex;
 }
 
-.mail-icon:hover #Icon-Set {
-	fill: #BFC8D0;
+.mail-icon:hover {
+	fill: #2B8CED;
 }
 
 #Icon-Set {
@@ -159,14 +156,14 @@ header {
 }
 
 .mail-block:hover #mail:hover,
-.mail-block:hover #Icon-Set,
-.mail-block:hover #Page-1 {
+.mail-block:hover #Icon-Set:hover,
+.mail-block:hover #Page-1:hover {
 	fill              : #2B8CED;
-	transition        : 1s;
-	-webkit-transition: 1s;
-	-moz-transition   : 1s;
-	-ms-transition    : 1s;
-	-o-transition     : 1s;
+	transition        : .2s;
+	-webkit-transition: .2s;
+	-moz-transition   : .2s;
+	-ms-transition    : .2s;
+	-o-transition     : .2s;
 }
 
 #mail {
@@ -732,11 +729,13 @@ input[checkbox]:active {
 }
 
 input.size:focus,
-input.customer-input:focus {
+input.customer-input:focus,
+input.order-block-text:focus {
 	border-radius: 2px;
 	border       : 1px solid #2B8CED;
 	background   : #FFF;
 }
+
 
 .checkbox-block {
 	display      : flex;
