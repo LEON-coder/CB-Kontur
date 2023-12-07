@@ -34,6 +34,10 @@ content {
 	width         : 1290px;
 }
 
+input:active {
+	border: 1px solid #2B8CED;
+}
+
 header {
 	display      : flex;
 	width        : 1290px;
@@ -89,38 +93,52 @@ header {
 	height            : 30px;
 	flex-shrink       : 0;
 	fill              : white;
-	transition        : 1s;
-	-webkit-transition: 1s;
-	-moz-transition   : 1s;
-	-ms-transition    : 1s;
-	-o-transition     : 1s;
+	transition        : .5s;
+	-webkit-transition: .5s;
+	-moz-transition   : .5s;
+	-ms-transition    : .5s;
+	-o-transition     : .5s;
+}
+
+.tg {
+	fill: #D9D9D9;
 }
 
 .tg-hover:hover {
-	fill             : blue;
-	transform        : scale(1.2);
-	-webkit-transform: scale(1.2);
-	-moz-transform   : scale(1.2);
-	-ms-transform    : scale(1.2);
-	-o-transform     : scale(1.2);
+	fill: #2B8CED;
 }
 
 .whatsapp {
-	fill: white;
+	fill: #D9D9D9;
 }
 
 .whatsapp:hover {
-	fill             : black;
-	background-color : #D9D9D9;
-	transform        : scale(1.2);
-	-webkit-transform: scale(1.2);
-	-moz-transform   : scale(1.2);
-	-ms-transform    : scale(1.2);
-	-o-transform     : scale(1.2);
+	border-radius: 50%;
 }
 
 .back-whatsapp {
 	fill: #BFC8D0;
+}
+
+.back-whatsapp-1 {
+	fill: #BFC8D0;
+}
+
+.figure-4 {
+	fill: white;
+}
+
+.whatsapp-block:hover .figure-4 {
+	fill: white;
+}
+
+.whatsapp-block:hover .back-whatsapp-1 {
+	fill              : #2B8CED;
+	transition        : .5s;
+	-webkit-transition: .5s;
+	-moz-transition   : .5s;
+	-ms-transition    : .5s;
+	-o-transition     : .5s;
 }
 
 .whatsapp:hover {
@@ -128,16 +146,31 @@ header {
 }
 
 .mail-icon {
-	fill: #000000;
+	fill   : #BFC8D0;
+	display: flex;
 }
 
-.mail-icon:hover {
-	fill             : gold;
-	transform        : scale(1.2);
-	-webkit-transform: scale(1.2);
-	-moz-transform   : scale(1.2);
-	-ms-transform    : scale(1.2);
-	-o-transform     : scale(1.2);
+.mail-icon:hover #Icon-Set {
+	fill: #BFC8D0;
+}
+
+#Icon-Set {
+	fill: #BFC8D0;
+}
+
+.mail-block:hover #mail:hover,
+.mail-block:hover #Icon-Set,
+.mail-block:hover #Page-1 {
+	fill              : #2B8CED;
+	transition        : 1s;
+	-webkit-transition: 1s;
+	-moz-transition   : 1s;
+	-ms-transition    : 1s;
+	-o-transition     : 1s;
+}
+
+#mail {
+	fill: #BFC8D0;
 }
 
 .header__contacts_block {
@@ -194,6 +227,7 @@ header {
 	line-height    : normal;
 	text-decoration: none;
 	margin-left    : 55px;
+	cursor         : default;
 }
 
 main {
@@ -282,6 +316,7 @@ main {
 .order-block {
 	display       : flex;
 	flex-direction: column;
+	margin-top    : 25px;
 }
 
 .quantity-block {
@@ -529,7 +564,7 @@ main {
 	font-style     : normal;
 	font-weight    : 400;
 	line-height    : 100%;
-	margin-right   : 74px;
+	margin-right   : 78px;
 }
 
 .selection__headline-additional {
@@ -684,13 +719,24 @@ input[type="textarea"] {
 	background   : rgba(245, 250, 255, 0.40);
 }
 
+input:active {
+	border-radius: 2px;
+	border       : 1px solid #2B8CED;
+	background   : #FFF;
+}
+
+input:focus {
+	border-radius: 2px;
+	border       : 1px solid #2B8CED;
+	background   : #FFF;
+}
+
 .checkbox-block {
 	display      : flex;
 	margin-top   : 10px;
 	align-items  : center;
 	margin-bottom: 20px;
 }
-
 
 .checkbox {
 	width        : 15px;
@@ -729,10 +775,17 @@ input[type="textarea"] {
 	margin-top   : auto;
 }
 
-.size:focus-visible {
-	border-radius: 2px;
-	border       : 1px solid #2B8CED;
-	background   : #FFF;
+:focus {
+	outline: none !important;
+}
+
+::-moz-focus-outer,
+::-moz-focus-inner {
+
+	border: 0px !important;
+
+	padding: 0;
+
 }
 
 .sizes__tabs {
