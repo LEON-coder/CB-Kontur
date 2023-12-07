@@ -518,7 +518,7 @@ main {
 
 .selection__headline {
 	display        : flex;
-	width          : 139px;
+	width          : 122px;
 	height         : 30px;
 	flex-direction : column;
 	justify-content: center;
@@ -530,6 +530,22 @@ main {
 	font-weight    : 400;
 	line-height    : 100%;
 	margin-right   : 74px;
+}
+
+.selection__headline-additional {
+	display        : flex;
+	width          : 147px;
+	height         : 30px;
+	flex-direction : column;
+	justify-content: center;
+	flex-shrink    : 0;
+	color          : #313131;
+	font-family    : Inter;
+	font-size      : 16px;
+	font-style     : normal;
+	font-weight    : 400;
+	line-height    : 100%;
+	margin-right   : 43px;
 }
 
 .boards-order {
@@ -709,8 +725,14 @@ input[type="textarea"] {
 	border       : 1px solid #DBDBDB;
 	background   : #FFF;
 	padding-left : 0;
-	margin-left  : 10px;
+	margin-left  : 0px;
 	margin-top   : auto;
+}
+
+.size:focus-visible {
+	border-radius: 2px;
+	border       : 1px solid #2B8CED;
+	background   : #FFF;
 }
 
 .sizes__tabs {
@@ -894,7 +916,7 @@ input[type="textarea"] {
 
 .thickness__name {
 	border-radius  : 2px;
-	border         : 1px solid #DBDBDB;
+	border         : 2px solid #DBDBDB;
 	background     : #FFF;
 	text-decoration: none;
 	color          : #313131;
@@ -950,7 +972,7 @@ input[type="textarea"] {
 	align-items    : center;
 	gap            : 10px;
 	border-radius  : 2px;
-	border         : 1px solid #DBDBDB;
+	border         : 2px solid #DBDBDB;
 	background     : #FFF;
 	text-decoration: none;
 	color          : #313131;
@@ -977,7 +999,7 @@ input[type="textarea"] {
 	line-height    : normal;
 	text-decoration: none;
 	border-radius  : 2px;
-	border         : 1px solid #DBDBDB;
+	border         : 2px solid #DBDBDB;
 	background     : #FFF;
 	margin-right   : 15px;
 }
@@ -1042,7 +1064,7 @@ input[type="textarea"] {
 	align-items       : center;
 	gap               : 10px;
 	border-radius     : 2px;
-	border            : 1px solid #DBDBDB;
+	border            : 2px solid #DBDBDB;
 	background        : #FFF;
 	text-decoration   : none;
 	margin-right      : 15px;
@@ -1129,7 +1151,7 @@ input[type="textarea"] {
 	align-items       : center;
 	gap               : 10px;
 	border-radius     : 2px;
-	border            : 1px solid #DBDBDB;
+	border            : 2px solid #DBDBDB;
 	background        : #FFF;
 	margin-right      : 15px;
 	text-decoration   : none;
