@@ -642,7 +642,6 @@ main {
 
 .accuracy-contur {
 	margin-top: -5px;
-	width     : 120px;
 }
 
 .attemptin-file {}
@@ -1263,7 +1262,7 @@ input.order-block-text:focus {
 	box-sizing : border-box;
 }
 
-.oz {
+.OZ {
 	display           : flex;
 	padding           : 7px 21px;
 	justify-content   : center;
@@ -1328,21 +1327,22 @@ input.order-block-text:focus {
 	display    : flex;
 	height     : 50px;
 	padding    : 5px 15px;
-	margin-top : 7px;
+
 }
 
 .foil-3 {
-	width     : 120px;
-	padding   : 12px 13px;
-	gap       : 10px;
-	margin-top: 7px;
+	width  : 120px;
+	padding: 12px 13px;
+	gap    : 10px;
+
 }
 
 .foil-4 {
-	width     : 120px;
-	padding   : 7px 13px;
-	gap       : 10px;
-	margin-top: 5px;
+	width  : 120px;
+	padding: 7px 13px;
+	gap    : 10px;
+
+	height: 50px;
 }
 
 .foil-5 {
@@ -1350,7 +1350,7 @@ input.order-block-text:focus {
 	padding    : 5px 15px;
 	align-items: center;
 	gap        : 10px;
-	margin-top : 7px;
+
 }
 
 .foil-thickness__name:hover {
@@ -1402,7 +1402,7 @@ input.order-block-text:focus {
 	-ms-transition    : 1s;
 	-o-transition     : 1s;
 	margin-top        : 0px;
-	margin-left       : 25px;
+	margin-left       : 0px;
 	margin-right      : -10px;
 	margin-top        : -4px;
 }
