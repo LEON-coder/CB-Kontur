@@ -1379,6 +1379,7 @@ input.order-block-text:focus {
 	margin-bottom: 19px;
 }
 
+
 .accuracy-circuit-board__name {
 	color             : #313131;
 	font-family       : Inter;
@@ -1403,9 +1404,38 @@ input.order-block-text:focus {
 	-o-transition     : 1s;
 	margin-top        : 0px;
 	margin-left       : 0px;
-	margin-right      : -10px;
-	margin-top        : -4px;
+
 }
+
+.accuracy-circuit-board__name:first-child {
+	color             : #313131;
+	font-family       : Inter;
+	font-size         : 16px;
+	font-style        : normal;
+	font-weight       : 500;
+	line-height       : normal;
+	display           : flex;
+	padding           : 5px 20px;
+	justify-content   : center;
+	align-items       : center;
+	gap               : 10px;
+	border-radius     : 2px;
+	border            : 2px solid #DBDBDB;
+	background        : #FFF;
+	margin-right      : 15px;
+	text-decoration   : none;
+	transition        : 1s;
+	-webkit-transition: 1s;
+	-moz-transition   : 1s;
+	-ms-transition    : 1s;
+	-o-transition     : 1s;
+	margin-top        : 0px;
+	margin-left       : 0px;
+	margin-right      : 15px;
+	margin-top        : -4px;
+	width             : 147px;
+}
+
 
 .accuracy-circuit-board__name:hover,
 .confirm-working-file__name:hover {
