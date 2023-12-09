@@ -712,10 +712,10 @@ main {
 }
 
 .material-of-base__tab:hover {
-	height       : 50px;
 	border-radius: 2px;
 	border       : 2px solid #2B8CED;
 	background   : #F2F8FF;
+	box-sizing   : border-box;
 }
 
 .material-of-base__tab_name {
