@@ -61,7 +61,7 @@ header {
 	height     : 32.313px;
 	flex-shrink: 0;
 	margin-left: 35px;
-	margin-top : 13px;
+	margin-top : 11px;
 }
 
 .header__constructor {
@@ -434,7 +434,7 @@ main {
 	line-height    : normal;
 	border         : none;
 	cursor         : pointer;
-	padding-left   : 3px;
+	padding-left   : 0px;
 }
 
 .goods-block {
@@ -593,8 +593,8 @@ main {
 }
 
 .main__section-selections_material-of-base {
-	display    : flex;
-	align-items: center;
+	display   : flex;
+	margin-top: 17px;
 }
 
 .selection__headline {
@@ -627,7 +627,7 @@ main {
 	font-style     : normal;
 	font-weight    : 400;
 	line-height    : 100%;
-	margin-right   : 43px;
+	margin-right   : 40px;
 }
 
 .width-foil {
@@ -637,14 +637,14 @@ main {
 
 .kind-holes {
 	height    : auto;
-	margin-top: 2px;
+	margin-top: -1px;
 }
 
 .accuracy-contur {
-	margin-top: -5px;
+	margin-top   : -3px;
+	padding-right: 30px;
+	box-sizing   : border-box;
 }
-
-.attemptin-file {}
 
 .boards-order {
 	display        : flex;
@@ -687,16 +687,15 @@ main {
 }
 
 .material-of-base__tabs {
-	display: flex;
+	display   : flex;
+	margin-top: -7px;
 }
 
 .material-of-base__tab {
 	display        : flex;
-	height         : 50px;
 	padding        : 5px 20px;
 	justify-content: center;
 	align-items    : center;
-	gap            : 10px;
 	margin-right   : 15px;
 	border-radius  : 2px;
 	border         : 2px solid #DBDBDB;
@@ -704,6 +703,12 @@ main {
 	flex-direction : column;
 	text-decoration: none;
 	transition     : 1s;
+	margin-top     : 0;
+}
+
+.material-of-base__tab img {
+	width : 38px;
+	height: 25px;
 }
 
 .material-of-base__tab:hover {
@@ -895,6 +900,12 @@ input.order-block-text:focus {
 	align-items: center;
 }
 
+.sizes__block-measurement:nth-child(2) {
+	margin-left: 0;
+	display    : flex;
+	align-items: center;
+}
+
 .X {
 	display        : flex;
 	width          : 27px;
@@ -909,6 +920,7 @@ input.order-block-text:focus {
 	font-weight    : 400;
 	line-height    : normal;
 	margin-left    : 10px;
+	margin-right   : 10px;
 }
 
 .measurement {
@@ -994,18 +1006,17 @@ input.order-block-text:focus {
 }
 
 .specification__label-corner {
-	color       : #AFAFAF;
-	font-family : Inter;
-	font-size   : 12px;
-	font-style  : normal;
-	font-weight : 700;
-	line-height : normal;
-	position    : absolute;
-	top         : -9px;
-	left        : 25px;
-	background  : white;
-	width       : 94px;
-	padding-left: 6px;
+	color      : #AFAFAF;
+	font-family: Inter;
+	font-size  : 12px;
+	font-style : normal;
+	font-weight: 700;
+	line-height: normal;
+	position   : absolute;
+	top        : -9px;
+	left       : 30px;
+	background : white;
+	width      : 137px;
 }
 
 .add-optional-modify {
@@ -1079,8 +1090,7 @@ input.order-block-text:focus {
 	margin-left: -5px;
 }
 
-.panelization-block,
-.type-transition-holes-block {
+.panelization-block {
 	margin-top : 13px;
 	display    : flex;
 	align-items: center;
@@ -1107,6 +1117,12 @@ input.order-block-text:focus {
 
 .marking-color-block {
 	margin-top : 18px;
+	display    : flex;
+	align-items: center;
+}
+
+.type-transition-holes-block {
+	margin-top : 23px;
 	display    : flex;
 	align-items: center;
 }
@@ -1180,6 +1196,10 @@ input.order-block-text:focus {
 	font-weight    : 400;
 	line-height    : normal;
 	margin-right   : 15px;
+}
+
+.modify-circle {
+	padding: 5px 19px;
 }
 
 .selection__name {
@@ -1264,7 +1284,7 @@ input.order-block-text:focus {
 
 .OZ {
 	display           : flex;
-	padding           : 7px 21px;
+	padding           : 7px 24px;
 	justify-content   : center;
 	align-items       : center;
 	gap               : 10px;
@@ -1317,7 +1337,7 @@ input.order-block-text:focus {
 
 .foil-1 {
 	box-sizing : border-box;
-	width      : 105px;
+	width      : 109px;
 	color      : #313131;
 	font-family: Inter;
 	font-size  : 12px;
@@ -1327,14 +1347,26 @@ input.order-block-text:focus {
 	display    : flex;
 	height     : 50px;
 	padding    : 5px 15px;
+}
 
+.foil-2 {
+	width      : 105px;
+	color      : #313131;
+	font-family: Inter;
+	font-size  : 12px;
+	font-style : normal;
+	font-weight: 400;
+	line-height: 100%;
+	display    : flex;
+	height     : 50px;
+	padding    : 5px 11px;
+	box-sizing : border-box;
 }
 
 .foil-3 {
-	width  : 120px;
-	padding: 12px 13px;
+	width  : 119px;
+	padding: 12px 11px;
 	gap    : 10px;
-
 }
 
 .foil-4 {
@@ -1346,11 +1378,10 @@ input.order-block-text:focus {
 }
 
 .foil-5 {
-	width      : 155px;
+	width      : 152px;
 	padding    : 5px 15px;
 	align-items: center;
 	gap        : 10px;
-
 }
 
 .foil-thickness__name:hover {
@@ -1366,17 +1397,40 @@ input.order-block-text:focus {
 }
 
 
-.accuracy-circuit-board-block,
-.confirm-working-file-block,
-.Do-not-apply-marking-block,
-.electrical-control-block,
+.accuracy-circuit-board-block {
+	display    : flex;
+	align-items: center;
+	margin-top : 18px;
+}
+
+.confirm-working-file-block {
+	display    : flex;
+	align-items: center;
+	margin-top : 16px;
+}
+
+.Do-not-apply-marking-block {
+	display    : flex;
+	align-items: center;
+	margin-top : 16px;
+}
+
+.electrical-control-block {
+	display    : flex;
+	align-items: center;
+	margin-top : 16px;
+}
+
 .coating-of-lamellas-gold-block,
 .marginal-half-holes-block,
 .face-metallization-block {
-	display      : flex;
-	align-items  : center;
-	margin-top   : 20px;
-	margin-bottom: 19px;
+	display    : flex;
+	align-items: center;
+	margin-top : 16px;
+}
+
+.face-metallization-block {
+	margin-bottom: 20px;
 }
 
 
@@ -1388,7 +1442,7 @@ input.order-block-text:focus {
 	font-weight       : 500;
 	line-height       : normal;
 	display           : flex;
-	padding           : 5px 20px;
+	padding           : 5px 21px;
 	justify-content   : center;
 	align-items       : center;
 	gap               : 10px;
@@ -1404,7 +1458,6 @@ input.order-block-text:focus {
 	-o-transition     : 1s;
 	margin-top        : 0px;
 	margin-left       : 0px;
-
 }
 
 .accuracy-circuit-board__name:first-child {
@@ -1461,7 +1514,7 @@ input.order-block-text:focus {
 	border            : 2px solid #DBDBDB;
 	background        : #FFF;
 	display           : flex;
-	padding           : 5px 20px;
+	padding           : 5px 16px;
 	justify-content   : center;
 	align-items       : center;
 	gap               : 10px;
@@ -1472,6 +1525,51 @@ input.order-block-text:focus {
 	-moz-transition   : 1s;
 	-ms-transition    : 1s;
 	-o-transition     : 1s;
+}
+
+.confirm-working-file__name:first-child {
+	color             : #313131;
+	font-family       : Inter;
+	font-size         : 16px;
+	font-style        : normal;
+	font-weight       : 500;
+	line-height       : normal;
+	border-radius     : 2px;
+	border            : 2px solid #DBDBDB;
+	background        : #FFF;
+	display           : flex;
+	padding           : 5px 16px;
+	justify-content   : center;
+	align-items       : center;
+	gap               : 10px;
+	text-decoration   : none;
+	margin-right      : 15px;
+	transition        : 1s;
+	-webkit-transition: 1s;
+	-moz-transition   : 1s;
+	-ms-transition    : 1s;
+	-o-transition     : 1s;
+}
+
+.yes--modify {
+	display        : flex;
+	padding        : 5px 18px;
+	justify-content: center;
+	align-items    : center;
+	gap            : 10px;
+}
+
+.confirm-working-file-yes {
+	width: 23px;
+}
+
+.tech_mark {
+	width       : 130px;
+	margin-right: 57px;
+}
+
+.tech-mark-no {
+	padding: 5px 20px;
 }
 
 .specify-location {
@@ -1488,8 +1586,9 @@ input.order-block-text:focus {
 	flex-shrink  : 0;
 	border-radius: 5px;
 	border       : 1px solid #D9D9D9;
-	margin-top   : 20px;
+	margin-top   : 16px;
 	position     : relative;
+	margin-left  : 5px;
 }
 
 .switchers-block-wrapper {
@@ -1513,7 +1612,8 @@ input.order-block-text:focus {
 }
 
 .PCB-Assembly-label-block {
-	display: flex;
+	display    : flex;
+	margin-left: 5px;
 }
 
 .show-assembly {
@@ -1576,7 +1676,8 @@ input.order-block-text:focus {
 	align-items      : center;
 	margin-bottom    : 0;
 	position         : relative;
-	top              : 14px;
+	top              : 12px;
+	right            : -24px;
 }
 
 .switch-checkbox-firm {
@@ -1637,11 +1738,11 @@ input.order-block-text:focus {
 footer {
 	display        : flex;
 	width          : 100%;
-	height         : auto;
 	flex-shrink    : 0;
 	background     : #5A6266;
 	justify-content: center;
-	margin-top     : 50px;
+	margin-top     : 118px;
+	height         : 180px;
 }
 
 .footer__wrap {
@@ -1665,7 +1766,8 @@ footer {
 	font-style   : normal;
 	font-weight  : 400;
 	line-height  : normal;
-	margin-bottom: 10px;
+	margin-bottom: 0;
+	padding-left : 7px;
 }
 
 .name-firm,
@@ -1679,15 +1781,17 @@ footer {
 }
 
 .name-firm {
-	margin-top: 20px;
+	margin-top   : -10px;
+	margin-bottom: 16px;
 }
 
 .firm-data {
-	margin-top: 20px;
+	margin-top: 0px;
+	width     : 180px;
 }
 
 .firm-location {
-	margin-top: 20px;
+	margin-top: 16px;
 }
 
 .footer-contacts-modify {
@@ -1708,6 +1812,10 @@ footer {
 	font-weight: 500;
 	line-height: normal;
 	margin-top : 8px;
+}
+
+.PCB-Assembly-icon {
+	margin-left: 0;
 }
 
 @media screen and (min-width: 2560px) {
