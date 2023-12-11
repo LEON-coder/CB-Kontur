@@ -109,10 +109,6 @@ header {
 	fill: #D9D9D9;
 }
 
-.whatsapp:hover {
-	border-radius: 50%;
-}
-
 .back-whatsapp {
 	fill: #BFC8D0;
 }
@@ -143,35 +139,13 @@ header {
 	margin-right: 0;
 }
 
-.mail-icon:hover {
+.mail-block:hover .mail-icon {
 	fill              : #2B8CED;
 	transition        : .2s;
 	-webkit-transition: .2s;
 	-moz-transition   : .2s;
 	-ms-transition    : .2s;
 	-o-transition     : .2s;
-}
-
-#Page-1:hover {
-	fill              : #2B8CED;
-	transition        : .2s;
-	-webkit-transition: .2s;
-	-moz-transition   : .2s;
-	-ms-transition    : .2s;
-	-o-transition     : .2s;
-}
-
-.mail-block:hover .mail-block:hover #Page-1:hover {
-	fill              : #2B8CED;
-	transition        : .2s;
-	-webkit-transition: .2s;
-	-moz-transition   : .2s;
-	-ms-transition    : .2s;
-	-o-transition     : .2s;
-}
-
-#mail {
-	fill: #BFC8D0;
 }
 
 .header__contacts_block {
@@ -482,6 +456,7 @@ input[type="file"] {
 	margin-top    : 16px;
 	flex-direction: column;
 }
+
 
 .download-block-notification {
 	display        : flex;
@@ -1349,6 +1324,11 @@ input.order-block-text:focus {
 	-o-transition     : 1s;
 	margin-top        : -3px;
 	box-sizing        : border-box;
+}
+
+.OZ:hover {
+	border: 2px solid #2B8CED;
+	color : #2B8CED;
 }
 
 .foil-thickness__name {
