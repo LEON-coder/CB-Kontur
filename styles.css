@@ -1301,9 +1301,6 @@ input.order-block-text:focus {
 }
 
 .OZ {
-	display           : flex;
-	padding           : 7px 24px;
-	justify-content   : center;
 	align-items       : center;
 	gap               : 10px;
 	border-radius     : 2px;
@@ -1313,10 +1310,16 @@ input.order-block-text:focus {
 	margin-right      : 15px;
 	color             : #313131;
 	font-family       : Inter;
-	font-size         : 12px;
+	font-size         : 16px;
 	font-style        : normal;
 	font-weight       : 400;
 	line-height       : 100%;
+	display           : flex;
+	height            : 30px;
+	padding           : 5px 20px;
+	justify-content   : center;
+	align-items       : center;
+	gap               : 10px;
 	transition        : 1s;
 	-webkit-transition: 1s;
 	-moz-transition   : 1s;
@@ -1327,8 +1330,19 @@ input.order-block-text:focus {
 }
 
 .OZ:hover {
-	border: 2px solid #2B8CED;
-	color : #2B8CED;
+	border         : 2px solid #2B8CED;
+	color          : #2B8CED;
+	font-family    : Inter;
+	font-size      : 16px;
+	font-style     : normal;
+	font-weight    : 500;
+	line-height    : normal;
+	display        : flex;
+	height         : 30px;
+	padding        : 5px 20px;
+	justify-content: center;
+	align-items    : center;
+	gap            : 10px;
 }
 
 .foil-thickness__name {
