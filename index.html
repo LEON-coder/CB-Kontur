@@ -92,10 +92,14 @@
 
 						<div class="main__download-block">
 							<div class="main__download-block_button-block">
-								<button class="download-block_button" href="#">
-									Добавить gerber файл
-								</button>
-								<p class="download-block-notification">Только Zip или Rar архив</p>
+								<form id="main__download-block_input">
+									<input type="file" id="download-block_button" href="#" name="download"
+										accept=".rar, .RAR, .zip, .7z, .7zip">
+
+									<label for="download-block_button" class="label-download-file">Добавить gerber
+										файл</label>
+									<span class="download-block-notification">Только Zip или Rar архив</span>
+								</form>
 							</div>
 						</div>
 
