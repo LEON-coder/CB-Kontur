@@ -1751,7 +1751,7 @@ input.order-block-text:focus {
 
 .switch-checkbox-firm:checked {
     border: 1px solid #c6c6c6;
-    background: #c6c6c6;
+    background: greenyellow;
 }
 
 .switch-checkbox-firm:before {
@@ -1868,6 +1868,16 @@ footer {
 .PCB-Assembly-icon {
     margin-left: 0;
 }
+
+textarea {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
 
 
 @media screen and (min-width: 2560px) {
